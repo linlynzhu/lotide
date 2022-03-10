@@ -38,3 +38,5 @@ const letterPositions = function(sentence) {
 assertArraysEqual(letterPositions("hello").e, [1]);
 assertArraysEqual(letterPositions("000.!")['.'], [3]);
 assertArraysEqual(letterPositions("    ")[' '], [0,1,2,3]);
+// assertArraysEqual(letterPositions(""), {});
+// console.log({} === {});
