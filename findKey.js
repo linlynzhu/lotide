@@ -30,3 +30,5 @@ const test2 = findKey({
 }, x => x.star === 0);
 assertEqual(test1, undefined);
 assertEqual(test2, 'c');
+
+module.exports = findKey;

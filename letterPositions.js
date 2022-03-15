@@ -40,3 +40,5 @@ assertArraysEqual(letterPositions("000.!")['.'], [3]);
 assertArraysEqual(letterPositions("    ")[' '], [0,1,2,3]);
 // assertArraysEqual(letterPositions(""), {});
 // console.log({} === {});
+
+module.exports = letterPositions;
